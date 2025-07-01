@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #333;
+  margin-bottom: 15px;
+}
+
+.role {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.contact-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #0077b5;
+  text-decoration: none;
+}
+
+.contact-icons a:hover {
+  color: #005087;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 10px;
+  border-left: 5px solid #0077b5;
+  padding-left: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-list span {
+  background: #0077b5;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.hobby-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.hobby-card {
+  background: #e0e0e0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.hobby-card:hover {
+  background: #0077b5;
+  color: white;
+  transform: scale(1.05);
+}
